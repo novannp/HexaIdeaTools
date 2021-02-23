@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: #1E1D2B;
+}
+
+.dropdown-menu {
+    background-color: #2F3042;
+}
+
+.dropdown-menu li a {
+    color: rgb(223, 223, 223);
+}
+
+.background-desktop img {
+    width: 100%;
+    position: absolute;
+    top: 10;
+    z-index: -99;
+}
+
+
+/* HEADER */
+header .text-head {
+    margin-top: 120px;
+}
+
+header .text-head h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+header .text-head p {
+    color: rgb(221, 221, 221);
+    font-size: 28;
+}
+
+header .text-head h6 {
+    color: #fff;
+}
+
+header .text-head a {
+    border: border 5px solid #FFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: #fff;
+}
+
+header .tools-image img {
+    max-width: 450px;
+}
+
+
+/* sds */
+.popular-tools {
+    margin-top: 120px;
+}
+
+.popular-tools h4 {
+    color: #252525;
+    font-weight: 700;
+}
+
+.popular-tools #autoWidth {
+    list-style: none;
+}
+
+.popular-tools #autoWidth li {
+    display: block;
+}
